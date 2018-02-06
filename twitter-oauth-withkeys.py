@@ -6,8 +6,8 @@ import json
 client_key = secrets.api_key
 client_secret = secrets.api_secret
 
-resource_owner_key = secrets.ACCESS_KEY
-resource_owner_secret = secrets.ACCESS_SECRET
+resource_owner_key = secrets.ACCESS_KEY ##check the secrets.py
+resource_owner_secret = secrets.ACCESS_SECRET ##check the secrets.py
 
 protected_url = 'https://api.twitter.com/1.1/account/settings.json'
 
